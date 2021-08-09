@@ -1,0 +1,137 @@
+Indexing Time = 24.23454713821411 Seconds 
+
+P.S : indexing without extracting names Because I've Extracted them before and saved 'em in external file 
+
+
+----------------------------------------------------------------------------------------
+
+Query 1 :
+  Main results : [268, 288, 304, 308, 323, 326, 334]
+  cosine_similarity results : [308 323 257 326 268 304 288 382 334 349]
+  Execution time = 5.001368999481201 Seconds 
+    {'precision': 0.7, 'recall': 1.0, 'F': 0.8235294117647058}
+
+  matching_score results : [323, 308, 257, 268, 288, 304, 326, 376, 406, 364]
+  Execution time = 3.362206220626831 Seconds 
+    {'precision': 0.6, 'recall': 0.8571428571428571, 'F': 0.7058823529411764}
+
+----------------------------------------------------------------------------------------
+
+Query 2 :
+  Main results : [326, 334]
+  cosine_similarity results : [349 334 211 383 326 350 419 304 407 370]
+  Execution time = 3.0318148136138916 Seconds 
+    {'precision': 0.2, 'recall': 1.0, 'F': 0.3333333333333333}
+
+  matching_score results : [419, 154, 350, 383, 323, 29, 30, 106, 349, 211]
+  Execution time = 2.7463765144348145 Seconds 
+    {'precision': 0.0, 'recall': 0.0, 'F': 0}
+
+----------------------------------------------------------------------------------------
+
+Query 3 :
+  Main results : [326, 350, 364, 385]
+  cosine_similarity results : [211 349  12 350 419 407 334 154  29 383]
+  Execution time = 3.9438629150390625 Seconds 
+    {'precision': 0.1, 'recall': 0.25, 'F': 0.14285714285714285}
+
+  matching_score results : [154, 419, 350, 106, 29, 12, 211, 316, 376, 383]
+  Execution time = 3.48866868019104 Seconds 
+    {'precision': 0.1, 'recall': 0.25, 'F': 0.14285714285714285}
+
+----------------------------------------------------------------------------------------
+
+Query 4 :
+  Main results : [370, 378, 385, 409, 421]
+  cosine_similarity results : [211 349 350 419 383 334 407 154  12 395]
+  Execution time = 3.024618625640869 Seconds 
+    {'precision': 0.0, 'recall': 0.0, 'F': 0}
+
+  matching_score results : [419, 154, 211, 350, 106, 29, 383, 376, 171, 30]
+  Execution time = 3.1580045223236084 Seconds 
+    {'precision': 0.0, 'recall': 0.0, 'F': 0}
+
+----------------------------------------------------------------------------------------
+
+Query 5 :
+  Main results : [359, 370, 385, 397, 421]
+  cosine_similarity results : [211 349 350 419 383 334 407  12 395 154]
+  Execution time = 3.03069806098938 Seconds 
+    {'precision': 0.0, 'recall': 0.0, 'F': 0}
+
+  matching_score results : [154, 419, 29, 350, 106, 376, 211, 12, 383, 30]
+  Execution time = 2.793687343597412 Seconds 
+    {'precision': 0.0, 'recall': 0.0, 'F': 0}
+
+----------------------------------------------------------------------------------------
+
+Query 6 :
+  Main results : [257, 268, 288, 304, 308, 323, 324, 326, 334]
+  cosine_similarity results : [308 323 326 268 257 304 334 324 288 211]
+  Execution time = 3.9367754459381104 Seconds 
+    {'precision': 0.9, 'recall': 1.0, 'F': 0.9473684210526315}
+
+  matching_score results : [323, 308, 268, 419, 257, 154, 304, 288, 326, 324]
+  Execution time = 3.667051076889038 Seconds 
+    {'precision': 0.8, 'recall': 0.8888888888888888, 'F': 0.8421052631578947}
+
+----------------------------------------------------------------------------------------
+
+Query 7 :
+  Main results : [386, 408]
+  cosine_similarity results : [384 421  49 406 107 420 414 260  80 232]
+  Execution time = 4.225553750991821 Seconds 
+    {'precision': 0.0, 'recall': 0.0, 'F': 0}
+
+  matching_score results : [421, 406, 384, 49, 107, 420, 414, 232, 239, 341]
+  Execution time = 4.290569543838501 Seconds 
+    {'precision': 0.0, 'recall': 0.0, 'F': 0}
+
+----------------------------------------------------------------------------------------
+
+Query 8 :
+  Main results : [339, 358]
+  cosine_similarity results : [339 358 155  61 242 212 156 303 269 258]
+  Execution time = 3.5835013389587402 Seconds 
+    {'precision': 0.2, 'recall': 1.0, 'F': 0.3333333333333333}
+
+  matching_score results : [358, 339, 61, 242, 269, 303, 155, 212, 258, 36]
+  Execution time = 2.888197422027588 Seconds 
+    {'precision': 0.2, 'recall': 1.0, 'F': 0.3333333333333333}
+
+----------------------------------------------------------------------------------------
+
+Query 9 :
+  Main results : [61, 155, 156, 242, 269, 315, 339, 358]
+  cosine_similarity results : [358 339 269  61 156 242 198 238 155 303]
+  Execution time = 3.7824435234069824 Seconds 
+    {'precision': 0.7, 'recall': 0.875, 'F': 0.7777777777777779}
+
+  matching_score results : [269, 358, 339, 242, 198, 61, 423, 238, 156, 303]
+  Execution time = 2.6831939220428467 Seconds 
+    {'precision': 0.6, 'recall': 0.75, 'F': 0.6666666666666666}
+
+----------------------------------------------------------------------------------------
+
+Query 10 :
+  Main results : [61, 156, 242, 269, 339, 358]
+  cosine_similarity results : [358 155  61 269 339 156 303 242 258  36]
+  Execution time = 2.732994556427002 Seconds 
+    {'precision': 0.6, 'recall': 1.0, 'F': 0.7499999999999999}
+
+  matching_score results : [358, 269, 61, 339, 242, 155, 303, 258, 36, 68]
+  Execution time = 2.788093328475952 Seconds 
+    {'precision': 0.5, 'recall': 0.8333333333333334, 'F': 0.625}
+
+----------------------------------------------------------------------------------------
+
+Query 11 :
+  Main results : [195, 198]
+  cosine_similarity results : [198  42 120 135 269 238 148  22 254  61]
+  Execution time = 3.4610226154327393 Seconds 
+    {'precision': 0.1, 'recall': 0.5, 'F': 0.16666666666666666}
+
+  matching_score results : [198, 269, 42, 120, 423, 238, 135, 46, 223, 61]
+  Execution time = 2.597170352935791 Seconds 
+    {'precision': 0.1, 'recall': 0.5, 'F': 0.16666666666666666}
+
